@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/share/npm-global/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+
+npm manifest: 
+  {
+    "name": "company-cicd",
+    "version": "1.0.0",
+    "description": "Este app ajuda a criar e padronizar os arquivos de configuracao do git-lab-ci da company",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "git",
+      "git-lab",
+      "company"
+    ],
+    "author": "Cayke Manjanelli, Eduardo Viccari",
+    "license": "MIT",
+    "dependencies": {
+      "lodash": "^4.17.15",
+      "prompt": "^1.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,21 @@
+{
+  "name": "company-cicd",
+  "version": "1.0.0",
+  "description": "Este app ajuda a criar e padronizar os arquivos de configuracao do git-lab-ci da company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node company-ci.js"
+  },
+  "keywords": [
+    "git",
+    "git-lab",
+    "company"
+  ],
+  "author": "Cayke Manjanelli, Eduardo Viccari",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "prompt": "^1.0.0"
+  }
+}
